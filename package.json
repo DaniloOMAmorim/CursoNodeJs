@@ -8,8 +8,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "jest",
-    "test:staged":"jest"
+    "test": "jest --passWithNoTests",
+    "test:staged":"jest --passWithNoTests"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.2.1",
